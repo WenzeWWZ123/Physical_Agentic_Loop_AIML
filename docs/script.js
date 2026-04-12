@@ -43,4 +43,17 @@ document.addEventListener("DOMContentLoaded", () => {
       target.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });
+
+  const copyBtn = document.getElementById("copyBibtexBtn");
+  if (copyBtn) {
+    copyBtn.addEventListener("click", () => {
+      const text = document.getElementById("bibtexContent").innerText;
+      navigator.clipboard.writeText(text);
+
+      copyBtn.innerText = "Copied!";
+      setTimeout(() => {
+        copyBtn.innerText = "Copy";
+      }, 1500);
+    });
+  }
 });
