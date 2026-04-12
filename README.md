@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">A Physical Agentic Loop [IROS 2026]</h1>
+  <h1 align="center">A Physical Agentic Loop </h1>
   <h3 align="center">Language-Guided Grasping with Execution-State Monitoring</h3>
   <p align="center">
     <a href="https://www.linkedin.com/in/wenze-wang-a43672235" target="_blank">Wenze Wang</a>
